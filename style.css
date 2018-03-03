@@ -1,0 +1,94 @@
+* {padding:0;margin:0;}
+
+.container-box{
+	width: 100%;
+}
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+/*.container2 {
+	padding-top: 15%;
+	color: #800000;
+	font-size: 30px;
+}*/
+
+section h1 {
+	color: #800000;
+/*	opacity: 0.9;*/
+	font-size: 70px;
+	text-align: center;
+/*	text-transform: uppercase;*/
+	line-height: 800px;
+
+}
+
+section h2 {
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+p {
+	margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    font-family: tahoma;	
+
+}
+
+.part {
+	padding: 50px 0;
+	text-align: left;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.parallax {
+	height: 800px;
+	width: left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+}
+
+.parallax {
+  background-image: url(img/plansza3.jpg);
+}
+
+.parallax2 {
+  background-image: url(img/plansza2.jpg);
+}
+
+.parallax2 {
+	height: 800px;
+	width: left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+	text-align: center;
+	padding-top: 15%;
+}
+
+.parallax2 p {
+	color: #3B0610;
+	font-size: 40px;
+}
+footer {
+	background-color: black;
+	height: 50px;
+	color: #edeff2;
+	text-align: center;
+	line-height: 50px;
+}
+/*
+@media screen and(max-width: 500px;){
+	parallax{
+		float: none;
+	}
+}*/
